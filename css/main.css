@@ -12,7 +12,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700);
 
 p {
-	font-size: 14px;
+	font-size: 30px;
 	line-height: 22.4px;
 	color: #6c7279;
 }
@@ -21,7 +21,7 @@ h1 {
 	color: #2d3033;
 }
 h2 {
-	font-size: 30px;
+	font-size: 40px;
 	color: #000;
 	font-weight:100;
 }
@@ -31,17 +31,7 @@ h3 {
 	font-weight: 300;
 	letter-spacing:1px;
 }
-h4 {
-	font-size: 17px;
-	color: #000;
-	font-weight: 400;
-}
-h5 {
-	font-size: 14px;
-	color: #2d3033;
-	text-transform: uppercase;
-	font-weight: 700;
-}
+
 .btn {
 	background-color: #e84545;
 	color: #fff;
@@ -122,22 +112,25 @@ ul li {
 #features image{
 	justify-content: left;
 }
-.section-subscribe{
+#download{
 		background-image: url('../images/lastImg.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
+		height: 800px;
 }
 #download {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 20px;
 	
   }
   #download .logo{
 	margin-top:110px;
 	margin-bottom: 110px;
   }
+
 .icon {
 	font-size:33px;
 	color:#000;
@@ -152,7 +145,8 @@ ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
-}
+	}
+	
 #header .header-content {
 	padding: 20px;
 	margin: 10px;
@@ -162,6 +156,9 @@ ul li {
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
 	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #header .logo {
@@ -176,11 +173,11 @@ ul li {
 #modumom{
 	font-size: 25px;
 	color: #fff;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 20px;
 }
 nav {
-    margin-right: 25px;
+    margin-right: 51px;
 }
 
 nav ul {
@@ -216,12 +213,12 @@ nav ul li a {
 	background-image: url('../images/mainImg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 750px;
 	padding-bottom: 100px;
 }
 .banner-text {
-	padding-top: 35%;
+	padding-top: 20%;
 	text-align: center;
+	margin-bottom: 60px;
 }
 .banner-text h1 {
 	color: #fff;
@@ -264,7 +261,7 @@ nav ul li a {
 	letter-spacing:1px;
 }
 .overview-content p {
-	font-family: "Roboto", sans-serif;
+	font-family: "맑은 고딕", sans-serif;
 	font-size:13px;
 	font-weight: 300;
 	line-height: 21px;
@@ -348,6 +345,7 @@ nav ul li a {
 
     #owl-demo .item {
 	text-align:center;
+	width: 40px;
 }
 
 /* ------------------------------------------------------------------------------
