@@ -112,6 +112,15 @@ ul li {
 	font-weight: 300;
 	letter-spacing:1px;
 }
+#overview p{
+	font-size: 18px;
+}
+#features p{
+	font-size:18px;
+}
+#features image{
+	justify-content: left;
+}
 .section-subscribe{
 		background-image: url('../images/lastImg.png');
 		background-repeat: no-repeat;
@@ -190,8 +199,14 @@ nav ul li a {
     color: white;
     font-weight: bold;
 }
+.text-right{
+	text-align:right;
+}
 
-
+.row{
+	display: flex;
+	align-items: center;
+}
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
@@ -200,6 +215,7 @@ nav ul li a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 750px;
+	padding-bottom: 100px;
 }
 .banner-text {
 	padding-top: 35%;
@@ -290,7 +306,9 @@ nav ul li a {
 /* ------------------------------------------------------------------------------
 	Feature 2 & 3
 -------------------------------------------------------------------------------*/
-
+#features img{
+	margin-right: 250px;
+}
 .features2 {
 	padding-bottom:0;
 }
