@@ -14,11 +14,13 @@
 p {
 	font-size: 30px;
 	line-height: 22.4px;
-	color: #6c7279;
+	color: #000000;
+	font-weight: bold;
 }
 h1 {
 	font-size: 43px;
 	color: #2d3033;
+	font-weight: bold;
 }
 h2 {
 	font-size: 40px;
@@ -27,9 +29,10 @@ h2 {
 }
 h3 {
 	font-size: 28px;
-	color: #2d3033;
-	font-weight: 300;
+	color: #000000;
+	font-weight: bold;
 	letter-spacing:1px;
+	font-weight: bold;
 }
 
 .btn {
@@ -54,9 +57,7 @@ h3 {
 /* ------------------------------------------------------------------------------
 	Global Styles
 -------------------------------------------------------------------------------*/
-a {
-	color: #e84545;
-}
+
 a:hover, a:focus {
 	text-decoration: none;
 	-moz-transition: background-color, color, 0.3s;
@@ -113,9 +114,7 @@ ul li {
 	justify-content: left;
 }
 #download{
-		background-image: url('../images/lastImg.png');
-		background-repeat: no-repeat;
-		background-size: cover;
+		
 		width: 100%;
 		height: 800px;
 }
@@ -145,12 +144,14 @@ ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
+	
 	}
 	
 #header .header-content {
 	padding: 20px;
 	margin: 10px;
 	width: 100%;
+	
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
 	-webkit-transition: padding 0.3s;
@@ -158,26 +159,28 @@ ul li {
 	font-size: 20px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items:left;
 }
 
 #header .logo {
 	float: left;
 }
 #header.fixed {
-	background-color: #8711cc;
+	background-color: rgb(121, 18, 161);
 }
 #header.fixed .header-content {
 	padding: 10px;
 }
 #modumom{
 	font-size: 25px;
-	color: #fff;
+	color: #000000;
 	margin-top: 10px;
 	margin-left: 20px;
 }
 nav {
     margin-right: 51px;
+	
+	
 }
 
 nav ul {
@@ -194,43 +197,49 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+   color: #000000;
     font-weight: bold;
 }
 .text-right{
 	text-align:right;
 }
-
+.text-left{
+	text-align: left;
+}
 .row{
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
-
+.last .row{
+		padding: 5%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	
+}
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
 .banner {
-	background-image: url('../images/mainImg.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 100px;
+	background-color: #f4f4f4;
+	
 }
 .banner-text {
 	padding-top: 20%;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 60px;
 }
 .banner-text h1 {
-	color: #fff;
+	color: black;
 	font-family: "Roboto", sans-serif;
-	font-weight: 100;
-	line-height: 48px;
-	margin-bottom: 5%;
+	font-weight: 600;
+	line-height: 55px;
+	/* margin-bottom: 5%; */
 }
 .banner-text h3 {
-	color: #fff;
 	font-family: "Roboto", sans-serif;
-	font-weight: 100;
+	font-weight: 600;
 	line-height: 48px;
 	margin-bottom: 5%;
 }
@@ -238,7 +247,6 @@ nav ul li a {
 	font-weight: 300;
 }
 .banner-text p {
-	color: #fff;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
@@ -268,13 +276,16 @@ nav ul li a {
 	letter-spacing:1px;
 	padding-right:12%;
 }
+.overview{
+	background-color: #FEF01B;
+}
 
 
 /* ------------------------------------------------------------------------------
 	Feature 1
 -------------------------------------------------------------------------------*/
 .features1 {
-	background-color:#f2f2f2;
+	background-color:#ffffff;
 }
 .left {
 	text-align:right;
@@ -353,17 +364,18 @@ nav ul li a {
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: center;
-	background-color:#201f22;
+	background-color:#707070;
 }
 .footer p {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	color: #636363;
+	color: #ffffff;
+	text-align: left;
 }
 .footer p > a {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	color: #636363;
+	color: #ffffff;
 }
 .footer a {
 	font-size:18px;
