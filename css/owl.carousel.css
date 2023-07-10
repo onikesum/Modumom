@@ -14,13 +14,15 @@
 }
 /* display none until init */
 .owl-carousel{
-	display: none;
+	display: flex;
+	justify-content: center;
 	position: relative;
 	flex-wrap: nowrap;
-
 	width: 100%;
 	-ms-touch-action: pan-y;
+	
 }
+
 .owl-carousel .owl-wrapper{
 	display: none;
 	position: relative;
@@ -39,8 +41,16 @@
 	transition: height 500ms ease-in-out;
 }
 	
+.owl-item{
+	float: none;
+	margin: 0 auto;
+}
 .owl-carousel .owl-item{
 	float: left;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	display: flex;
+
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{

@@ -15,9 +15,11 @@ $(document).ready(function() {
       $("#owl-demo").owlCarousel({
 		  autoPlay : true,
         pagination: false,
-		navigation : false
+		navigation : false,
+		items: 3
 		
       });
+	  //반응형
 
 	// Fancybox
 	$('.work-box').fancybox();
